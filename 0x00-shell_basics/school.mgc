@@ -1,0 +1,15 @@
+#!/bin/bash
+In the school.mgc file, include these two lines:
+
+0 string SCHOOL School data
+!:mime School
+
+Go back to your terminal and give permission to execute:
+
+chmod u+x school.mgc
+
+Compile using this line:
+file -C -m school.mgc
+git add .
+git commit
+git push
